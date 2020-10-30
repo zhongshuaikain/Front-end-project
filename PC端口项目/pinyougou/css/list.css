@@ -1,0 +1,169 @@
+.second_kill {
+    position: absolute;
+    left: 186px;
+    top: 45px;
+    border-left: 1px solid #b1191a;
+    margin-left: 2px;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list li {
+    float: left;
+    line-height: 45px;
+    color: #000;
+    /*padding: 0 28px 14px 28px;*/
+    margin: 0 28px;
+}
+
+.sk_list li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.sk_con li {
+    float: left;
+    /*padding: 0 17px 14px 17px;*/
+    margin: 0 17px;
+    line-height: 45px;
+
+}
+
+.sk_con li a {
+    font-family: icomoon;
+    font-size: 14px;
+}
+
+.sk_bd {
+    width: 1200px;
+}
+
+.sk_bd li {
+    position: relative;
+    float: left;
+    width: 288px;
+    height: 458px;
+    margin: 25px 12px 10px 0;
+    border: 1px solid transparent;
+    transition: all 0.5s ease 0s;
+}
+
+.sk_bd li img {
+    margin-left: 2px;
+}
+
+.sk_bd li:hover {
+    transform: translate(0, -5px);
+    /* transform 移动不会影响其他盒子的位置 */
+}
+
+
+.sk_goods {
+    margin: 10px 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+.sk_bd p em {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e60012;
+}
+
+.sk_goods_price del {
+    margin-left: 3px;
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.bar {
+    font-size: 12px;
+    color: #666;
+    padding: 0 12px;
+}
+
+.bar_in {
+    width: 132px;
+    height: 10px;
+    background-color: #ed282e;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.bar em {
+    color: #e33136;
+
+}
+
+.sk_bd .buy {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #b1191a;
+
+}
+
+.sk_bd li:hover {
+
+    border: 1px solid #b1191a;
+}
+
+.sk_bd ul {
+    width: 1220px;
+}
+
+/*page start*/
+.page {
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+
+.page_num a {
+    display: inline-block;
+    line-height: 36px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.page_num .page_prov,
+.page_num .page_next {
+    width: 83px;
+    height: 36px;
+}
+
+.page_skip input {
+    height: 36px;
+    width: 46px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: all 0.5s;
+}
+
+.page_skip button {
+    height: 36px;
+    width: 58px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.page_skip input:focus {
+    border: 1px solid skyblue;
+    width: 86px;
+}
+
+.page .dotted, .page .current {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+/*page end*/

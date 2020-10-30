@@ -1,0 +1,270 @@
+body {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    font-size: 14px;
+    font-family: -apple-system, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.5;
+}
+
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+
+input{
+    -webkit-appearance: none;
+}
+
+img,a{
+    -webkit-touch-callout: none;
+}
+
+
+
+img{
+    vertical-align: middle;
+}
+
+.header1 {
+    height: 45px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header1 ul li {
+    float: left;
+    height: 45px;
+    background-color: #333;
+    text-align: center;
+    line-height: 45px;
+}
+
+.header1 ul li:nth-child(1) {
+    width: 8%;
+}
+
+.header1 ul li:nth-child(1) img {
+    width: 10px;
+}
+
+.header1 ul li:nth-child(2) {
+    width: 10%;
+}
+
+.header1 ul li:nth-child(2) img {
+    vertical-align: middle;
+    width: 35px;
+}
+
+.header1 ul li:nth-child(3) {
+    width: 57%;
+    text-align: left;
+
+}
+
+.header1 ul li span {
+    position: relative;
+    display: block;
+    margin-left: 10px;
+    height: 45px;
+}
+
+.open {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    color: #fff;
+    font-style: normal;
+    font-size: 10px;
+
+}
+
+.shopping {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    color: #999;
+    font-style: normal;
+    font-size: 8px;
+}
+
+.header1 ul li:nth-child(4) {
+    width: 25%;
+    font-size: 15px;
+    color: #fff;
+    background-color: #CD2525;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    overflow: hidden;
+    height: 45px;
+    background-color: #c81623;
+}
+
+
+.nav_l {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 45px;
+}
+
+.nav_l::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 18px;
+    background: url(../images/mulu.png) no-repeat;
+    background-size: 20px 18px;
+    margin: 14px 0 0 15px;
+}
+
+.nav_r {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav_r a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav .nav_search {
+    position: relative;
+    height: 30px;
+    background-color: white;
+    margin: 8px 50px 0 50px;
+    border-radius: 30px;
+}
+
+.JD_icon {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 20px;
+    height: 15px;
+    background: url(../images/JD_icon.png) no-repeat;
+    background-size: 20px 15px;
+}
+
+.nav_search .line {
+    position: absolute;
+    top: 7px;
+    left: 32px;
+    width: 1px;
+    height: 17px;
+    background-color: #cccccc;
+}
+
+.nav_search .search {
+    position: absolute;
+    top: 7px;
+    left: 35px;
+    width: 18px;
+    height: 15px;
+    background: url(../images/jd-sprites.png) -80px 0 no-repeat;
+    background-size: 200px;
+    /*background: url(../images/jd-sprites.png) -243px 0 no-repeat;*/
+    /*background-size: 18px 15px;*/
+
+
+}
+
+.nav_search input {
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+    height: 30px;
+    outline: none;
+    text-indent: 4em;
+    color: #ccc;
+}
+
+.buy {
+    /*top: 30px;*/
+    /*left: 0px;*/
+    height: 181px;
+    background-color: #c81623;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+    margin-bottom: 50px;
+}
+
+.buy img {
+    margin-top: 50px;
+    width: 95%;
+    height: 181px;
+    border-radius: 15px;
+}
+
+.sport ul li {
+    float: left;
+    width: 33.33%;
+
+}
+
+.sport img{
+    width: 100%;
+}
+
+/*列表导航 start*/
+.liebiao{
+    box-sizing: border-box;
+}
+
+.liebiao a{
+    float: left;
+    width: 20%;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.liebiao a img{
+    width: 40px;
+    margin-top: 10px;
+}
+
+.liebiao a em{
+    display: block;
+    font-style: normal;
+}
+
+/*列表导航 end*/
+.new_people{
+    margin: 0 20px;
+}
+
+.new_people a{
+    float: left;
+    width: 50%;
+}
+
+.new_people a:nth-child(1) img{
+     width: 100%;
+     border-radius: 10px 0 0 10px;
+ }
+
+.new_people a:nth-child(2) img{
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+}
+

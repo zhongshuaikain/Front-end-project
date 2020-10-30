@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e4cd70e-5986-4caf-b412-98961cc37d17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/car.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/css/car.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/arrow-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/arrow-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/jian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/js/animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/js/car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/js/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/aside_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/b3_20190731_105344.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/bargain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/bg_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/detail_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/detail_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/detail_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/focus1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/focus2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/focus3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/ma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/pre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou/upload/sk.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jaUKbJxWzlPP2Iics2a0fcSa9r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e4cd70e-5986-4caf-b412-98961cc37d17" name="Default Changelist" comment="" />
+      <created>1604041632095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604041632095</updated>
+      <workItem from="1604041633207" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

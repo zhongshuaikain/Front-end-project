@@ -1,0 +1,426 @@
+/*main start*/
+.main {
+
+    width: 1199px;
+    height: 455px;
+    margin-top: 11px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    float: left;
+    margin-left: 219px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l, .arrow-r {
+    display: none;
+    position: absolute;
+    font-family: icomoon;
+    font-size: 18px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    top: 50%;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.focus ol {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -48px;
+}
+
+.focus ol li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.focus ol .current {
+    background-color: white;
+}
+
+.newflash {
+    float: right;
+    height: 453px;
+    width: 248px;
+    border: 1px solid #e8e8e7;
+}
+
+.newflash a {
+    color: #333;
+}
+
+.newspaper_title {
+    height: 33px;
+    color: #333;
+    border-bottom: 1px dotted #e8e8e7;
+}
+
+.newspaper_title h4 {
+    float: left;
+    margin-left: 15px;
+    line-height: 33px;
+    font-size: 14px;
+}
+
+.newspaper {
+    height: 130px;
+    border-bottom: 1px solid #e8e8e7;
+}
+
+.newspaper_title span {
+    float: right;
+    line-height: 32px;
+    font-family: icomoon;
+    font-size: 12px;
+    margin: 0 15px 0 0;
+}
+
+.newspaper ul {
+    padding: 10px 14px;
+
+}
+
+.newspaper ul li {
+    height: 24px;
+}
+
+.lifeservice {
+    height: 208px;
+
+    border-top: none;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 255px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #e8e8e7;
+    border-bottom: 1px solid #e8e8e7;
+}
+
+.lifeservice ul li a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+
+.service_icon {
+    display: block;
+    margin: 10px auto;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.huafei {
+    background-position: -17px -16px;
+}
+
+.jipiao {
+    width: 26px;
+    background-position: -78px -16px;
+}
+
+.dianying {
+    background-position: -140px -16px;
+}
+
+.youxi {
+    width: 26px;
+    background-position: -206px -16px;
+}
+
+.caipiao {
+    height: 23px;
+    background-position: -17px -87px;
+
+}
+
+
+.jiayouzhan {
+    width: 26px;
+    height: 23px;
+    background-position: -78px -87px;
+}
+
+.jiudian {
+    width: 26px;
+    height: 23px;
+    background-position: -140px -87px;
+}
+
+.huochepiao {
+    width: 26px;
+    height: 23px;
+    background-position: -206px -87px;
+}
+
+.zhongchou {
+    width: 24px;
+    height: 26px;
+    background-position: -17px -158px;
+
+}
+
+.licai {
+    width: 26px;
+    height: 26px;
+    background-position: -78px -158px;
+
+}
+
+.lipinka {
+    width: 24px;
+    height: 18px;
+    background-position: -140px -158px;
+}
+
+.baitiao {
+    width: 26px;
+    height: 26px;
+    background-position: -206px -158px;
+}
+
+.lifeservice li {
+    text-align: center;
+    position: relative;
+}
+
+.p_lipinka {
+    margin-top: 18px;
+}
+
+.jian {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+/*recommend start*/
+.recommend {
+    margin-top: 12px;
+
+}
+
+.recom-hd {
+    float: left;;
+    width: 200px;
+    height: 163px;
+    background: url(../img/clock.png) no-repeat #5c5251 center;
+
+}
+
+.recom-bd {
+    float: left;
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+
+.recom-bd ul li {
+    float: left;
+    height: 143px;
+    margin-top: 15px;
+    margin-right: -1px;
+    border-right: 1px solid #ccc;
+
+
+}
+
+.recommend .recom-bd li:nth-child(4) {
+    border-right: none;;
+}
+
+
+/* floor start*/
+.floor {
+    margin-top: 20px;
+}
+
+.floor .floor_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor_hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.floor_hd_r {
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.floor_hd_r li a {
+    padding: 0 6px;
+}
+
+.floor_hd_r li {
+    float: left;
+}
+
+.floor_bd {
+    height: 360px;
+}
+
+.floor_bd img {
+    transition: all 0.3s;
+}
+
+.floor_bd img:hover {
+    margin-top: -5px;
+}
+
+.floor_bd li, .floor_bd div {
+    overflow: hidden;
+}
+
+.floor_bd_one {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.floor_bd_one ul li {
+    float: left;
+    height: 32px;
+    width: 86px;
+    line-height: 32px;
+    text-align: center;
+    margin: 7px 0 0 8px;
+
+    font-size: 15px;
+    color: #f5f5f5;
+    border-bottom: 1px solid #ededed;
+
+}
+
+.floor_bd_one img {
+    padding: 13px 0 0 12px;
+
+}
+
+.floor_bd_two {
+    position: relative;
+
+}
+
+
+.floor_bd_two ol {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.floor_bd_two li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.floor_bd_two li:nth-child(2) {
+    background-color: white;
+}
+
+.floor_bd_three_hd {
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.floor_bd_three_bd {
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.floor_bd_four {
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.floor_bd_five_hd {
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.floor_bd_five_bd {
+    margin-left: 1px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+/* fixedtool start*/
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    width: 76px;
+    margin-left: -686px;
+    background-color: #fff;
+
+}
+
+.fixedtool li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    border-bottom: 1px solid #ededed;
+    cursor: pointer;
+}
+
+.fixedtool li:nth-child(1) {
+    background-color: #c81623;
+    color: #fff;
+}
+
+/* fixedtool end*/

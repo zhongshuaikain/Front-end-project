@@ -1,0 +1,115 @@
+@import "common.css";
+body {
+  min-width: 320px;
+  width: 15rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f51e1c;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+.top {
+  margin: 0 0.68rem;
+  height: 1.76rem;
+}
+.top a:nth-child(1) {
+  display: inline-block;
+  width: 10rem;
+  height: 1.76rem;
+}
+.top a:nth-child(1) img {
+  width: 9rem;
+  height: 1.1rem;
+  margin: 18px 50px 0 0;
+}
+.top a:nth-child(n+2) {
+  display: inline-block;
+  width: 0.72rem;
+  height: 1.2rem;
+  margin: 0 0.4rem;
+}
+.top a:nth-child(n+2) img {
+  width: 100%;
+  height: 100%;
+}
+.search {
+  width: 15rem;
+  padding: 0 0.48rem;
+  height: 1.84rem;
+}
+.search .search_in {
+  margin: 10px 0;
+  width: 14.04rem;
+  height: 1.76rem;
+}
+.search .search_in input {
+  width: 100%;
+  height: 1.28rem;
+  border-radius: 0.64rem;
+  font-size: 0.5rem;
+  text-indent: 2em;
+  color: #ccc;
+  outline: none;
+  border: none;
+}
+.bgc {
+  width: 15rem;
+  height: 5.2rem;
+  margin: 0 0 0.2rem;
+}
+.bgc a {
+  display: block;
+  width: 14.04rem;
+  height: 5.2rem;
+  margin: auto;
+}
+.bgc a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+}
+.advertisement {
+  display: flex;
+  height: 4.2rem;
+}
+.advertisement a {
+  flex: 1;
+}
+.advertisement a img {
+  width: 100%;
+  height: 100%;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product li {
+  flex: 20%;
+  height: 2.84rem;
+}
+.product li a {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.44rem;
+}
+.product li a::before {
+  display: block;
+  content: "";
+  width: 1.68rem;
+  height: 1.68rem;
+  background: url(../images/pic4.webp) no-repeat;
+  background-size: 100%;
+}
+/*# sourceMappingURL=index.css.map */

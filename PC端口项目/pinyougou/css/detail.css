@@ -1,0 +1,437 @@
+.de_container {
+    margin-top: 12px;
+}
+
+.crumb_wrap {
+    height: 25px;
+    font-size: 12px;
+    color: #333;
+}
+
+
+.preview_wrap img {
+
+    border: 1px solid #ededed;
+}
+
+.preview_wrap {
+
+    float: left;
+    width: 398px;
+    height: 588px;
+}
+
+
+
+.big {
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 650px;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    z-index: 999;
+    border: 1px solid red;
+}
+.small_img{
+    position: relative;
+}
+
+.bigImg{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+    opacity: .3;
+    cursor: move;
+}
+
+.preview_list {
+    position: relative;
+    margin-top: 65px;
+    height: 60px;
+}
+
+.preview_img {
+    width: 312px;
+    height: 60px;
+    margin: 0 auto;
+
+}
+
+.preview_img img {
+    border: 2px solid transparent;
+}
+
+.preview_img .current {
+    border: 2px solid #c81623;
+}
+
+.arrow_prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 22px;
+    height: 32px;
+    margin-top: -16px;
+    background: url(../img/arrow-prev.png);
+}
+
+.arrow_next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 22px;
+    height: 32px;
+    margin-top: -16px;
+    background: url(../img/arrow-next.png);
+}
+
+.itemInfo_wrap {
+    float: right;
+    width: 720px;
+
+}
+
+.skull {
+    height: 34px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.news {
+    height: 32px;
+    font-size: 12px;
+    color: #e12228;
+}
+
+.summary_price,
+.summary_promotion {
+    padding: 10px 0;
+    position: relative;
+    background-color: #fee9eb;
+
+}
+
+.summary dt,
+.summary dd {
+    float: left;
+}
+
+.summary dl {
+    overflow: hidden;
+}
+
+.summary dt {
+    width: 60px;
+    line-height: 33px;
+    font-size: 12px;
+    color: #666;
+    padding-left: 10px;
+}
+
+.remark {
+    position: absolute;
+    top: 20px;
+    right: 11px;
+}
+
+.price {
+    font-size: 22px;
+    color: #c81623;
+}
+
+.summary_price dd a {
+    font-size: 12px;
+    color: #c81623;
+}
+
+.summary_promotion {
+    padding-top: 0;
+}
+
+.summary_promotion dd {
+    width: 450px;
+    line-height: 33px;
+    color: #999;
+}
+
+.summary_promotion dd em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: #c81623;
+    color: #fff;
+    line-height: 22px;
+    text-align: center;
+}
+
+.summary_support dd {
+    height: 33px;
+    line-height: 33px;
+    color: #999;
+}
+
+.summary_stock dd {
+    line-height: 33px;
+    color: #999;
+    border-bottom: 1px solid #999;
+}
+
+.choose_color {
+    margin-top: 15px;
+}
+
+.choose_color a {
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+}
+
+.summary a.current {
+    border: 1px solid #c81623;
+}
+
+.choose_version {
+    margin: 10px 0;
+}
+
+.choose_version dd a {
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 16px;
+    border: 1px solid #ededed;
+}
+
+.choose_capacity a {
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 16px;
+    border: 1px solid #ededed;
+}
+
+.choose_mode {
+    margin: 10px 0;
+}
+
+.choose_mode a {
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 16px;
+    border: 1px solid #ededed;
+}
+
+.choose_suit a {
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 16px;
+    border: 1px solid #ededed;
+}
+
+.choose_amount {
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 46px;
+
+}
+
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: none;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.choose_amount .reduce {
+    cursor: not-allowed;
+}
+
+.choose_amount a {
+    position: absolute;
+    right: 0;;
+    width: 15px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.choose_amount .add {
+    top: 0;
+}
+
+.choose_amount .reduce {
+    bottom: 0;
+}
+
+.addcar {
+    float: left;
+    margin-left: 10px;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 46px;
+}
+
+.choose_btn {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.produce_detail {
+    margin-top: 30px;
+}
+
+.aside {
+    float: left;
+    width: 208px;
+    border: 1px solid #ddd;
+}
+
+.detail {
+    float: right;
+    width: 978px;
+}
+
+.aside_tab_list {
+    width: 208px;
+    height: 33px;
+
+}
+
+.aside_tab_list ul li {
+    height: 33px;
+    font-size: 12px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    line-height: 33px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.fenlei {
+    float: left;
+    width: 104px;
+}
+
+.tuijian {
+    float: right;
+    width: 103px;
+    border-left: 1px solid #ddd;
+}
+
+
+.aside_tab_list li.current {
+    color: red;
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+}
+
+
+.li_fenlei {
+    padding: 0 12px;
+}
+
+.li_fenlei li {
+    float: left;
+    /*height: 27px;*/
+    width: 90px;
+    margin-left: 1px;
+    /*line-height: 27px;*/
+    padding: 9px 0;
+    text-align: center;
+    border-bottom: 1px dotted #ddd;
+}
+
+.li_fenlei p {
+    display: block;
+    line-height: 35px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.box1 {
+    width: 180px;
+    margin: auto;
+    padding: 0 10px 20px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.box1 h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 13px;
+    text-overflow: ellipsis;
+}
+
+.box1 em {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.box1 a {
+    display: block;
+    width: 88px;
+    height: 26px;
+    margin: auto;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 26px;
+    background-color: #f7f7f7;
+}
+
+.detail_tab_list {
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+}
+
+.aside_tab_con div {
+    display: none;
+}
+
+
+.detail_tab_list li {
+    float: left;
+    font-size: 12px;
+    padding: 0 18px;
+}
+
+.detail_tab_list .current {
+    color: #fff;
+    background-color: #c81623;
+}
+
+.item_produce {
+    padding: 20px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+}

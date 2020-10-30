@@ -1,0 +1,164 @@
+
+.register_header {
+    height: 82px;
+    margin-bottom: 20px;
+
+}
+
+.register_logo {
+    padding: 12px 0;
+    border-bottom: 2px solid #b1191a;
+}
+
+.registerarea {
+    height: 520px;
+    color: #333;
+    border: 1px solid #dfdfdf;
+}
+
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: normal;
+
+    background-color: #ececec;
+    border: 1px solid #dfdfdf;
+}
+
+.registerarea h3 em {
+    font-size: 14px;
+    float: right;
+}
+
+.registerarea h3 a {
+    color: #c81623;
+}
+
+.register_form {
+    width: 600px;
+    height: 425px;
+    margin: 54px auto 0 auto;
+}
+
+.register_form li {
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.register_form li label {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding-right: 10px;
+    line-height: 35px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.register_form .inp {
+    height: 34px;
+    width: 238px;
+    border: 1px solid #999;
+}
+
+.shouji_error {
+    vertical-align: baseline;
+    margin-left: 10px;
+    line-height: 32px;
+    color: #df3033;
+}
+
+.mima_yes {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png) no-repeat;
+}
+
+.success {
+    vertical-align: baseline;
+    line-height: 32px;
+    margin-left: 10px;
+    color: #40b83f;
+}
+
+.register_form .safe {
+    padding: 0 190px;
+
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    display: inline-block;
+    width: 35px;
+    height: 14px;
+    color: #fff;
+    line-height: 14px;
+    text-align: center;
+}
+
+.ruo {
+    background-color: #df3033;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 112px;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.agree input {
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.over {
+    width: 200px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 111px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: #c81623;
+}
+
+.register_footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+
+}
+
+.register_footer li {
+    display: inline-block;
+}
+
+.register_footer li a {
+    color: #666;
+    padding: 0 8px;
+}
+
+.last_p {
+    margin-top: 15px;
+}
